@@ -1,0 +1,26 @@
+{
+  "data_name": "mnist",
+  "model_name": "mnist-cnn",
+  "model_input_dim": [28, 28, 1],
+  "model_output_dim": 10,
+
+  "trainer_name": "classification",
+
+  "eval_freq": 50,
+  "quiet": null,
+  "seed": null,
+
+  "exp_name": "tutorial",
+  "run_name": "mnist-classification",
+  "tag_name": "v1.0",
+
+  "num_epochs": 100,
+  "batch_size": 2000,
+  "batch_size_eval": 2000,
+  "clip_grad_norm": 0.1,
+  "dropout": 0.0,
+  "hidden_size": [32, 32],
+  "learning_rate": 0.5,
+  "moving_average_coefficient": 0.99,
+  "weight_decay": 0.0
+}
